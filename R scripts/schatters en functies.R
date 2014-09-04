@@ -183,6 +183,5 @@ doubleRobust <- function(outcome ,treatment ,confounders, dataframe,linkfunction
   return((sum(tempMat%*%factor2,na.rm=T) + sum(fittedMat,na.rm=T))/((nrow(dataframe)*(nrow(dataframe)-1))))
 }
 
-
-
+x <- 10
 
